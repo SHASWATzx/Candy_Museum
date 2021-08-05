@@ -1,0 +1,70 @@
+body {
+    background: #f5d9d5;
+    font-family: 'Josefin Sans', sans-serif;}
+
+.SEC0SPACEING {
+    margin: 100px 0;
+}
+
+
+/* hover effect function for hamburger */
+.navbar-toggler:hover {
+    color: #ea1c2c;
+}
+
+.container-fluid .navbar-brand {
+    color: #ea1c2c;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.navbar-nav {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;   
+}
+
+.navbar.SCROLLED {
+    background: rgb(233, 167, 198);
+}
+
+/* hover effect function for Links */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #310a31;
+}
+
+/* stlying SECTION 2 & 3,4 as they are the same*/
+
+.SECTION0 h2 {
+    color: #ea1c2c;
+    
+    font-weight: 100;
+    font-size: 2.25rem;
+}
+
+.SECTION0 p {
+    color: #310a31;
+
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+/* adding margine bottom MEDIA QUEARY for SECTION0 p  */
+
+@media (min-width:375px) {
+    .SECTION0 p {
+        margin-bottom: 5em;
+    }
+
+    .SECTION0 h2 {
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+    
